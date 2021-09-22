@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 18px;
+}
+
+body{
+    background: linear-gradient(180deg, rgba(245, 245, 245, 0) 1.04%, #F5F5F5 100%);
+}
+
+.container{
+    max-width: 781px;
+    width: 100%;
+    margin: auto;
+}
+.block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.div__corzina{
+    background: rgb(136, 81, 14);
+    position: relative;
+    height: 50px;
+    max-width: 780px;
+    width: 100%;
+
+}
+.titleh{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+}
